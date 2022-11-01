@@ -1,8 +1,7 @@
 name: Build & Deploy Packages on MacOS
 on: push
 
-jobs:
-  build:
+Job-Message-Actions-Windows: 
     runs-on: macos-latest
     steps:
       - name: Check out Current Repository
@@ -20,7 +19,7 @@ jobs:
 
 name: "Welcome Message"
 on: [push]
-jobs:
+Jobs:
   Job-Message-Actions:
     runs-on: ubuntu-latest
     steps:
@@ -30,7 +29,7 @@ jobs:
     
 name: "Welcome Message"
 on: [push]
-jobs:
+Jobs:
   Job-Message-Actions-Ubuntu:
     runs-on: ubuntu-latest
     steps:
